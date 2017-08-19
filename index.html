@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+    <title>Home - The Standard Model</title>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/dark-hive/jquery-ui.css" />
+
+    <link rel="stylesheet" href="css/final.css" />
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!--tabs function-->
+    <script>
+         $(function () {
+             $("#tabs").tabs();
+         });
+    </script>
+
+</head>
+<body>
+
+    <header>
+
+        <h1>The Standard Model</h1>
+
+    </header>
+
+    <div id="about">
+
+        <p class="about"><em>The Standard Model of Particle Physics</em>, or simply <em>
+            The Standard Model</em>, is a collection of the most important elementary 
+            particles and their fields. The describe the basic constituients of matter, 
+            energy, and the fundamental forces of nature. Because of it's success in describing 
+            such a wide array of physical phenomenon, it is sometimes called a "near 
+            theory of everything". However, many questions remain that are unanswered by 
+            the Standard Model, such as: dark matter, dark energy, quantum gravity, the 
+            mass of the Higgs, why there are three generations of matter particles/fields, 
+            and more.
+        </p>
+
+    </div>
+
+    <div id="picture">
+
+        <img src="images/standard-model.jpg" />
+
+    </div>
+
+    <!--Begin jQuery tabs-->
+    <div id="tabs">
+
+        <ul>
+            <li><a href="#quarks">Quarks</a></li>
+            <li><a href="#leptons">Leptons</a></li>
+            <li><a href="#gauge">Gauge Bosons</a></li>
+            <li><a href="#higgs">Higgs Boson</a></li>
+            <li><a href="#susy">Supersymmetry?</a></li>
+            <li><a href="#generations">Generations</a></li>
+            <li><a href="#contact">Contact Us!</a></li>
+        </ul>
+
+        <div id="quarks"> <!--Quarks tab-->
+
+            <p>
+                <em>Quarks</em> are matter particles/fields that interact with the strong nuclear
+            force. The 1st generation quarks (the up and down quarks) are the quarks that 
+            make up protons and neutrons. There are still four more quarks, spanning 2 more generations.
+            </p>
+
+            <a href="quarks.html">Learn more about the quarks</a>
+
+        </div>
+
+        <div id="leptons"> <!--Leptons tab-->
+
+            <p>
+                <em>Leptons</em> are matter particles/fields that do not interact with the 
+                strong nuclear force. The most common, and familiar, of the leptons is the 
+                electron. The electron also has two most massive sybllings, and their 
+                neutrally charged (neutrino) counterparts.
+            </p>
+
+            <a href="leptons.html">Learn more about leptons</a>
+
+        </div>
+
+        <div id="gauge">
+            <!--Gauge Bosons tab-->
+
+            <p>
+                <em>Gauge Bosons</em> are the particles/fields that communicate 3 of the 4
+                fundamental forces of nature at a quantum level: the electromagnetic force,
+                the weak nuclear force, and the strong nuclear force. There is wide speculation 
+                about a force carrier for gravity called the <em>graviton</em>, but it has yet to 
+                be found in experiments, and does not fit well with the Standard Model.
+            </p>
+
+            <a href="gaugebosons.html">Learn more about Gauge Bosons</a>
+
+        </div>
+
+        <div id="higgs">
+            <!--Higgs Boson tab-->
+
+            <p>
+                The <em>Higgs Boson/Higgs Field</em> is the odd ball of the Standard Model. 
+                It is in a league of it's own.
+            </p>
+
+            <a href="higgs.html">Learn more about the Higgs Boson</a>
+
+        </div>
+
+        <div id="susy"> <!--Supersymmetry tab-->
+
+            <h2>WARNING: Speculation ahead!</h2>
+
+            <p><em>Supersymmetry</em> (AKA "SUSY"), is a popular, but as-of-yet, uproven 
+            extension to the Standard Model, in which each particle in the SM has a more
+            massive counterpart called a <em>superpartner</em>, or <em>sparticle</em>.</p>
+
+            <a href="susy.html">Learn more about supersymmetry</a>
+
+        </div>
+
+        <div id="generations">
+            <!--Higgs Boson tab-->
+
+            <p>
+                The fermions (matter particles)<em>generations</em> of the Standard Model
+                are divided into three generations, based on mass.
+            </p>
+
+            <a href="generations.html">Learn more about the differnet generations</a>
+
+        </div>
+
+        <div id="contact"> <!--Contact tab-->
+
+            <a href="contact.html">Contact us to learn more!</a>
+
+        </div>
+    </div><!--End jQuery tabs-->
+
+    
+
+</body>
+</html>

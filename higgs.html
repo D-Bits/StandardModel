@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="css/final.css" />
+
+    <!--jQuery scripts-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!--Add the Higgs class to the <ul>-->
+    <script>
+        $(document).ready(function () {
+            $("h3").click(function () {
+                $("p").toggleClass("higgs");
+            });
+        });
+
+    </script>
+
+    <title>The Higgs Boson - The Standard Model of Particle Physics</title>
+</head>
+<body>
+
+    <header>
+
+        <h1>The Higgs Boson</h1>
+
+    </header>
+
+        <h1><a href="index.html">Home</a></h1>
+
+        <div id="about">
+
+            <p class="about">The Higgs Boson, or simply "the Higgs", is the wierdest of the Standard 
+                Model particles/fields. While most quantum fields have a value of almost 
+                zero in a vacuum (quantum fluctuations notwithstanding), the Higgs field takes on
+                a possitive value everywhere, including in otherwise empty space. The role
+                of the Higgs field is to give mass to elementary particles, because without 
+                it, conventional quantum field theory predicts that all particles should be 
+                massless, which simply cannot be correct.
+            </p>
+
+            <br />
+
+            <h3 id="higgs">Click me for facts about the Higgs!</h3>
+
+            <p>The Higgs has a mass of 125.09 GeV, neutral charge, and zero spin.</p>
+
+            <!--<ul>
+                <li>Mass: 125.09 GeV</li>
+                <li>Charge: Neutral</li>
+                <li>Spin: 0</li>
+            </ul>-->
+
+        </div>
+
+</body>
+</html>

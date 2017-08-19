@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+
+         <meta charset="utf-8" />
+
+    <title>Contact - The Standard Model</title>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/dark-hive/jquery-ui.css" />
+
+    <link rel="stylesheet" href="css/final.css" />
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.js"></script>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1>Want to Nerd Out Even More? Contact Us!</h1>
+            
+        </header>
+
+        <h1><a href="index.html">Home</a></h1>
+
+        <!--Contact form-->
+        <form id="contactform" method="get" action="">
+
+            <fieldset>
+
+                <legend>Please provide the following info</legend>
+
+                <p>
+                    <label for="name">Your full name, please</label>
+                    <input id="name" name="name" minlength="6" type="text" required>
+                </p>
+
+                <p>
+                    <label for="cemail">Your E-Mail, please</label>
+                    <input id="cemail" type="email" name="email" required>
+                </p>
+
+                <!--Submitt info-->
+                <p>
+                    <input class="submit" type="submit" value="Submit">
+                </p>
+
+            </fieldset>
+
+        </form>
+
+        <!--Validate the form-->
+ 
+        <script>
+
+                $("#contactform").validate();
+
+            </script>
+
+    </body>
+</html>

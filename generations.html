@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="css/final.css" />
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <script> //script for buttons
+
+            // turn 1st generation particles aqua
+            $(function () {
+                $("#button1").on("click", function () {
+                    $("#gen1").addClass("gen1");
+                });
+            });
+
+            // turn 2nd generation particles green
+            $(function () {
+                $("#button2").on("click", function () {
+                    $("#gen2").addClass("gen2");
+                });
+            });
+
+            // turn 3rd generation particles orange
+            $(function () {
+                $("#button3").on("click", function () {
+                    $("#gen3").addClass("gen3");
+                });
+            });
+
+    </script>
+    
+    
+    <title>Generations - The Standard Model</title>
+</head>
+<body>
+
+    <header>
+
+        <h1>Particle Generations</h1>
+
+    </header>
+
+    <h1><a href="index.html">Home</a></h1>
+
+    <div id="about">
+
+        <p class="about">
+            The different matter particles in the Standard Model (quarks and leptons) are
+            divided into three "generations", based on mass and stablility. The first 
+            generation particles/fields are the most stable, and least massive, whereas the
+            third generation particles are the most massive, and least stable.
+        </p>
+        
+    </div>
+
+    <h1>Use the menu to sort the different generations of particles</h1>
+
+    <!--Buttons-->
+
+    <div id="buttons">
+
+        <button id="button1">Highlight the 1st generation (aqua)</button>
+
+        <button id="button2">Highlight the 2nd generation (green)</button>
+
+        <button id="button3">Highlight the 3rd generation (orange)</button>
+
+    </div>
+
+    <br />
+
+    <!--list of ferminon generations-->
+   <ul class="generations">
+       <!--first generation-->
+       <li id="gen1">Up Quark</li>
+       <li id="gen1">Down Quark</li>
+       <li id="gen1">Electron</li>
+       <li id="gen1">Electron Neutrino</li>
+
+       <!--second generation-->
+       <li id="gen2">Charm Quark</li>
+       <li id="gen2">Strange Quark</li>
+       <li id="gen2">Muon</li>
+       <li id="gen2">Muon Neutrino</li>
+
+       <!--thrid generation-->
+       <li id="gen3">Bottom Quark</li>
+       <li id="gen3">Top Quark</li>
+       <li id="gen3">Tau</li>
+       <li id="gen3">Tau Neutrino</li>
+   </ul>
+
+</body>
+</html>

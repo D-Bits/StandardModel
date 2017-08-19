@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="css/final.css" />
+
+    <title>Leptons - The Standard Model of Particle Physics</title>
+</head>
+<body>
+
+    <header>
+
+        <h1>The Leptons</h1>
+
+        <div id="about">
+
+            <p>Click to learn more</p>
+
+        </div>
+
+    </header>
+
+    <!--Begin accordion-->
+
+    <div id="accordion">
+
+        <!--Up Quark drop down-->
+        <h3>Electron</h3>
+
+        <div>
+
+            <ul>
+                <li>1st Generation</li>
+                <li>Charge: Negative</li>
+                <li>Mass: 0.511 MeV</li>
+                <li>Spin: 1/2</li>
+            </ul>
+        </div>
+
+        <!--Down Quark drop down-->
+        <h3>Electron Neutrino</h3>
+
+        <div>
+
+            <ul>
+                <li>1st Generation</li>
+                <li>Charge: Neutral</li>
+                <li>Mass: 2.2 eV</li>
+                <li>Spin: 1/2</li>
+            </ul>
+        </div>
+
+        <!--Charm Quark drop down-->
+        <h3>Muon</h3>
+
+        <div>
+
+            <ul>
+                <li>2nd Generation</li>
+                <li>Charge: Negative</li>
+                <li>Mass: 105.67 MeV</li>
+                <li>Spin: 1/2</li>
+            </ul>
+        </div>
+
+        <!--Strange Quark drop down-->
+        <h3>Muon Neutrino</h3>
+
+        <div>
+
+            <ul>
+                <li>2nd Generation</li>
+                <li>Charge: Neutral</li>
+                <li>Mass: 1.7 MeV</li>
+                <li>Spin: 1/2</li>
+            </ul>
+        </div>
+
+        <!--Bottom Quark drop down-->
+        <h3>Tau</h3>
+
+        <div>
+
+            <ul>
+                <li>3rd Generation</li>
+                <li>Charge: Negative</li>
+                <li>Mass: 1.7768 GeV</li>
+                <li>Spin: 1/2</li>
+            </ul>
+        </div>
+
+        <!--Top Quark drop down-->
+        <h3>Tau Neutrino</h3>
+
+        <div>
+
+            <ul>
+                <li>3rd Generation</li>
+                <li>Charge: Neutral</li>
+                <li>Mass: 15.5 MeV</li>
+                <li>Spin: 1/2</li>
+            </ul>
+        </div>
+
+        </div> <!--End accordion-->
+
+        <h1><a href="index.html">Home</a></h1>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+        </script>
+
+        <!--jQuery for accordion-->
+        <script>
+
+
+            $(function () {
+                $('#accordion').accordion({
+                    collapsible: true,
+                    autoHeight: false,
+                    active: false
+                });
+            });
+
+        </script>
+
+</body>
+</html>

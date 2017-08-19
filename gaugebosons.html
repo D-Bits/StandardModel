@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="css/final.css" />
+
+    <title>Gauge Bosons - The Standard Model of Particle Physics</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>The Gauge Bosons</h1>
+
+        <div id="about">
+
+            <p>Click to learn more</p>
+
+        </div>
+
+    </header>
+
+    <!--Begin accordion-->
+
+    <div id="accordion">
+
+        <!--Up Quark drop down-->
+        <h3>Photon</h3>
+
+        <div>
+
+            <ul>
+                <li>Electromagnetic Force</li>
+                <li>Charge: Neutral</li>
+                <li>Mass: Massless</li>
+                <li>Spin: 1</li>
+            </ul>
+        </div>
+
+        <!--Down Quark drop down-->
+        <h3>Gluon</h3>
+
+        <div>
+
+            <ul>
+                <li>Strong Nuclear Force</li>
+                <li>Charge: Neutral</li>
+                <li>Mass: Massless</li>
+                <li>Spin: 1</li>
+            </ul>
+        </div>
+
+        <!--Strange Quark drop down-->
+        <h3>W Boson</h3>
+
+        <div>
+
+            <ul>
+                <li>Weak Nuclear Force</li>
+                <li>Charge: Postive</li>
+                <li>Mass: 80.39 GeV</li>
+                <li>Spin: 1</li>
+            </ul>
+        </div>
+
+        <!--Charm Quark drop down-->
+        <h3>Z Boson</h3>
+
+        <div>
+
+            <ul>
+                <li>Weak Nuclear Force</li>
+                <li>Charge: Neutral</li>
+                <li>Mass: 91.19 GeV</li>
+                <li>Spin: 1</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <h1><a href="index.html">Home</a></h1>
+
+
+
+    <!--End accordion-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+    </script>
+
+    <!--jQuery for accordion-->
+    <script>
+
+            $(function () {
+                $('#accordion').accordion({
+                    collapsible: true,
+                    autoHeight: false,
+                    active: false
+                });
+            });
+
+    </script>
+
+</body>
+</html>

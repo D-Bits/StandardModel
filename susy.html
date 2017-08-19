@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Supersymmetry - The Standard Model of Particle Physics</title>
+
+    <!--Style sheets-->
+    <link rel="stylesheet" href="css/final.css" />
+
+    <!--jQuery scripts-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+    <script>
+        
+        $(document).ready(function() {
+            $("#susy").click(function() { // Click <h3> to append superpartners
+               $("ul").append("<li>QUARK SUPERPARTNERS (SQUARKS)", 
+                              "<li>Up Quark -> <em>Sup Quark</em></li>", 
+                              "<li>Down Quark -> <em>Sdown Quark</em></li>", 
+                              "<li>Strange Quark -> <em>Sstrange Quark</em>", 
+                              "<li>Charm Quark -> <em>Scharm Quark</em>",
+                              "<li>Bottom Quark -> <em>Sbottom Quark</em>",
+                              "<li>Top Quark -> <em>Stop Quark</em>",
+                              "<li>LEPTON SUPERPARTNERS (SLEPTONS)", 
+                              "<li>Electron -> <em>Selectron</em>",
+                              "<li>Electron Neutrino -> <em>Selectron Sneutrino</em>",
+                              "<li>Muon -> <em>Smuon</em></li>",
+                              "<li>Muon Neutrino -> <em>Smuon Sneutrino</em></li>",
+                              "<li>Tau -> <em>Stau</em></li>",
+                              "<li>Tau Neutrino -> <em>Stau Sneutrino</em></li>",
+                              "<li>GAUGE BOSON SUPERPARTNERS (GAUGINO)</li>", 
+                              "<li>Photon -> <em>Photino</em></li>",
+                              "<li>Gluon -> <em>Gluino</em></li>",
+                              "<li>W Boson -> <em>Wino</em></li>",
+                              "<li>Higgs Boson -> <em>Higgsino</em></li>", 
+                              "<li>Graviton -> <em>Gravitino</em>"
+                             ); 
+            });
+        });
+    
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Supersymmetry</h1>
+
+    </header>
+    
+    <h1><a href="index.html">Home</a></h1>
+
+    <div id="about"> 
+
+        <p class="about"><em>Supersymmetry</em> (AKA, "Susy") is a hypothetical extension to the 
+        Standard Model, which is currently not proven by experiment, but nonetheless, remains highly 
+        popular among many theoretical physicists. In a model that is <em>supersymmetric</em>, the 
+        equations governing matter, and the equations governing force, are the same. The key prediction 
+        of supersymmetry is that every particle in the Standard Model should have a more massive relative 
+        (a "superpartner", or "sparticle"), who's spin differs by 1/2. Supersymmetry is popular because 
+        it seems to have the potential to answer some big questions that the Standard Model does not 
+        describe, such as:  providing a compelling candidate for dark matter, explaining the mass of 
+        the Higgs Boson, and much more.</p>
+        
+        <br>
+
+    </div>
+
+    <div id="about"> <!--On click, extend the Standard Model-->
+
+        <h3 id="susy">Click me to extend the Standard Model with superpartners</h3>
+        
+        <p class="about"><em>Note: particle physicists are terrible at naming things...</em></p>
+        
+        <br/>
+        
+        <ul>
+        
+        </ul>
+
+    </div>
+
+    
+
+</body>
+</html>
